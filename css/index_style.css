@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+}
+
+.title a{  
+    font-family: 微軟正黑體;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+
+.bg img {
+    min-height: 100%;
+    width: 100%;
+}
+.logo {
+    width: 100%;
+    padding: 30px;
+    border: 2px white solid;
+    background-color: grey;
+    border-radius: 30px;
+}
+
+.title {
+    width: 100%;
+    padding: 30px;
+    border: 2px black solid;
+    border-radius: 30px;
+    background-color: rgba(214, 212, 212, 0.548);
+}
+
+.title img {
+    padding: 20px;
+    border: 2px rgb(10, 99, 134) solid;
+    border-radius: 30px;
+    background-color: rgb(153, 153, 153);
+}
+
+#icon {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.title a {
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgb(153, 153, 153);
+}
+
+.title a:hover {
+    background-color: white;
+}
+
+.content_text {
+    background-color: rgba(116, 116, 116, 0.507);
+    width: 65%;
+    border: 2px black solid;
+    border-radius: 30px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.content_text p {
+    font-family: 微軟正黑體;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.content_text a {  
+    font-family: 微軟正黑體;
+    font-weight: bolder;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.content_text a:hover {
+    color: blue;
+    background-color: white;
+}
